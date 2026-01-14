@@ -7,7 +7,7 @@ Dog
 # Place 
 Beach
 
-# Person
+# Enemy
 Girlfriend
 
 # Brand
