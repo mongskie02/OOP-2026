@@ -8,12 +8,12 @@ Shoes
 
 ---
 # Object 1 
-- Leather
-- Insole
-- outsole
+- Leather: Cowhide
+- Insole: Foam
+- outsole: Rubber
 
 
 # Object 2
-- Shoe lace
-- Heel 
-- Lining 
+- Shoe lace: Flat
+- Heel: Cone
+- Lining: Polyester
