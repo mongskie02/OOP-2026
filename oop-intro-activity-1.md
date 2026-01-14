@@ -8,12 +8,12 @@ Shoes
 
 ---
 # Object 1 
-- Leather: Cowhide
-- Insole: Foam
-- outsole: Rubber
+- Size: 45
+- Quality: Foam
+- Style: Rubber
 
 
 # Object 2
-- Shoe lace: Flat
-- Heel: Cone
-- Lining: Polyester
+- Size: Flat
+- Quality: Cone
+- Style: Polyester
