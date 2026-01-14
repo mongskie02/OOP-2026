@@ -14,6 +14,6 @@ Shoes
 
 
 # Object 2
-- Size: Flat
+- Size: 43
 - Quality: Cone
 - Style: Polyester
