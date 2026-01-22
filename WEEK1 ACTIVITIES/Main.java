@@ -1,14 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-<<<<<<< HEAD
-        Circle circle = new Circle(50);
-        System.out.println(circle.getArea());
-
-        
-        
-    }
-}
-=======
 
         Book b1 = new Book();
         b1.title = "One Piece";
@@ -39,4 +30,3 @@ public class Main {
         book2.displayInfo();
     }
 }
->>>>>>> 3f7ded00bca35ae9c781a20307adae7cd73923ff
