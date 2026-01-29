@@ -5,7 +5,7 @@ public class Student {
     String lastName;
     String gender;
     String email;
-    int totalStudents;
+    static int totalStudents;
 
     public Student(int studentID, String firstName, String middleName, String lastName, String gender, String email) {
         this.studentID = studentID;
