@@ -4,9 +4,9 @@ public class Meyn {
         System.out.println("Initial number of students: "
                 + Student.getTotalStudents());
 
-        Student s1 = new Student(101, "Tangol", "T.", "GACAYAN", "Male", "tangol@email.com");
+        Student s1 = new Student(101, "Tangol", "T.", "Gacayan", "Male", "tangol@email.com");
         Student s2 = new Student(102, "Bebot", "K.", "Corpuz", "Female", "bebot@email.com");
-        Student s3 = new Student(103, "Carl", "L.", "tamods", "Female", "carl   @email.com");
+        Student s3 = new Student(103, "Carl", "L.", "Tamods", "Female", "carl@email.com");
 
         System.out.println("Total number of students after creation: "
                 + Student.getTotalStudents());
@@ -16,7 +16,7 @@ public class Meyn {
 
         System.out.println("\nSchool Name: " + Course.getSchoolName());
 
-        Course course = new Course();
+        Course course = new Course("IT101", "Introduction to Programming");
 
         course.enrollStudent(s1);
         course.enrollStudent(s2);
@@ -25,3 +25,4 @@ public class Meyn {
         course.displayCourseInfo();
     }
 }
+
