@@ -9,12 +9,13 @@ public class SecretAgent {
     private boolean onMission;
     private LocalDateTime lastMissionCompletionTime;
 
-    public SecretAgent(String agentId, String codeName, int clearanceLevel, boolean onMission) {
+    public SecretAgent(String agentId, String codeName, int clearanceLevel) {
         this.agentId = agentId;
         this.codeName = codeName;
         this.clearanceLevel = clearanceLevel;
         this.onMission = false;
-        this.lastMissionCompletionTime;
+        this.lastMissionCompletionTime = null;
+
     }
 
     public String getAgentId() {
@@ -38,6 +39,15 @@ public class SecretAgent {
     }
 
     public void setCodename(String newCodename) {
-        this.codeName = co
+        this.codeName = newCodename;
+    }
+
+    public void startMission() {
+        this.onMission = true;
+    }
+
+    public void completeMission() {
+        this.onMission = false;
+        this.lastMissionCompletionTime = LocalDateTime.now();
     }
 }
