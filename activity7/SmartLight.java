@@ -3,35 +3,28 @@ package activity7;
 public class SmartLight extends SmartDevice {
 
     private int brightness;
-    private boolean on;
 
     public SmartLight(String deviceName) {
         super(deviceName);
         this.brightness = 0;
-        this.on = false;
-    }
-
-    public boolean isOn() {
-        return on;
-    }
-
-    public void turnOn() {
-        this.on = true;
-    }
-
-    public void turnOff() {
-        this.on = false;
-    }
-
-    public void displayStatus() {
-        System.out.println("Light is " + (isOn() ? "On" : "Off") + ", Brightness: " + brightness);
     }
 
     public void setBrightness(int level) {
-        if (isOn()) {
-            this.brightness = level;
+        if (!isOn) {
+            System.out.println("Light is off. Turn it on first.");
+            return;
         }
 
+        if (level >= 0 && level <= 100) {
+            this.brightness = level;
+        } else {
+            System.out.println("Brightness must be between 0 and 100.");
+        }
     }
 
+    @Override
+    public void displayStatus() {
+        super.displayStatus();
+        System.out.println("Brightness: " + brightness);
+    }
 }

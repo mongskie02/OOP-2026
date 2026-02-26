@@ -16,7 +16,6 @@ public class SmartDevice {
 
     public void displayStatus() {
         System.out.println("Device: " + deviceName);
-        System.out.println("Power:" + (isOn ? "On" : "Off"));
+        System.out.println("Power: " + (isOn ? "On" : "Off"));
     }
-
 }
