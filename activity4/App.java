@@ -98,6 +98,7 @@ public class App {
             System.out.println("File saved...");
         } catch (IOException e) {
             e.printStackTrace();
+
         }
 
     }
@@ -117,6 +118,7 @@ public class App {
             }
         } catch (FileNotFoundException | NumberFormatException e) {
             e.printStackTrace();
+
         }
     }
 }
