@@ -1,4 +1,4 @@
-package com.gson.model;
+package activity11;
 
 public enum EmployeeType {
     SALARIED,
